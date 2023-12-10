@@ -1,0 +1,51 @@
+﻿@model UserModel
+
+@{
+    ViewData["Title"] = "Login";
+    string error = (String)ViewData["Error"];
+}
+<link rel="stylesheet" href="~/css/site.css">
+<div class="container mt-5">
+    <div class="row w-100">
+        <div class="card d-flex align-items-center justify-content-center" style="max-width: 500px; margin: auto; background-color: #0a0b0f;">
+            <div class="auth-form-transparent text-left p-3">
+                <div class="brand-logo">
+                    <img src="~/images/logo.png" alt="logo" id="main-logo"><span id="slogan">Nexus Void</span>
+                </div>
+                <form class="pt-3" method="POST">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input asp-for="username" type="text" class="form-control form-control-lg rounded" id="username"
+                                   placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="form-group mt-3">
+                        <div class="input-group">
+                            <input asp-for="password" type="password" class="form-control form-control-lg rounded" id="password"
+                                   placeholder="Password">
+                        </div>
+                    </div>
+
+                    <div class="form-group mt-1">
+                        <a asp-controller="Login" asp-action="Create" style="color:white; cursor:pointer;">Create account</a>
+                    </div>
+
+                    <div class="mt-3" style="display: flex;justify-content: end; margin-top:unset;">
+                        <button class="btn btn-block btn-danger btn-lg font-weight-medium auth-form-btn"
+                                id="login-btn">
+                            LOGIN
+                        </button>
+                    </div>
+                    
+                    @if (!string.IsNullOrEmpty(error))
+                    {
+                     <div class="message">
+                         @error
+                     </div>   
+                    }
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

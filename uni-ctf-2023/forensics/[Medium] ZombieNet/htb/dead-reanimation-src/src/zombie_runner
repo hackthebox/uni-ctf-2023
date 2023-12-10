@@ -1,0 +1,8 @@
+#!/bin/sh
+
+while [ 1 ]; do 
+    /usr/bin/dead-reanimation
+    sleep 600
+done
+ 
+exit 0

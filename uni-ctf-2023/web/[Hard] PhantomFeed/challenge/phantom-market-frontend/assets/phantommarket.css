@@ -1,0 +1,191 @@
+body {
+    font-family: 'Nunito', sans-serif !important;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-card {
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 0px;
+    transition: 0.5s;
+    padding: 2em;
+}
+
+.login-card:hover {
+    background-color: #000000;
+}
+
+.login-button {
+    font-family: 'Bruno Ace', cursive;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 2em;
+    border: 1px solid #6900cc;
+    background-color: transparent;
+    transition-duration: 0.3s;
+}
+
+.login-button:hover {
+    background-color: #6900cc;
+}
+
+.underline {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+}
+
+.underline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 0.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.underline:hover {
+    color: #fff;
+}
+
+.fill:hover {
+    color: whitesmoke;
+}
+
+.fill:before {
+    content: "";
+    position: absolute;
+    background: #6900cc;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    -webkit-transition: top 0.09s ease-in;
+}
+
+.fill:hover:before {
+    top: 0;
+}
+
+.product-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.product {
+    overflow-wrap: break-word;
+    color: #ffffff;
+    font-size: 1.3em;
+    background-color: #000000;
+    border: 1px solid #360068;
+    padding: 0.2em 0.8em;
+    text-align: left;
+    transition-duration: 0.3s;
+}
+
+.product:hover {
+    border-color: #6900cc;
+}
+
+.product-img {
+    width: 100%;
+    height: 8em;
+    object-fit: cover;
+}
+
+.navbar-custom {
+    font-family: 'Bruno Ace', cursive;
+    white-space: nowrap;
+    background-color: rgb(0, 0, 0);
+    transition-duration: 0.3s !important;
+}
+
+.loading-container {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.loading-img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fluctuate 2s infinite;
+}
+
+@keyframes fluctuate {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.price {
+    font-size: 0.8em;
+    padding: 3px;
+    background-color: #360068;
+    color: #fff;
+}
+
+.product-listing {
+    color: #fff;
+    padding: 2em;
+    background-color: #000;
+}
+
+.price-listing {
+    font-size: 1.2em;
+    padding: 3px;
+    background-color: #6900cc;
+    color: #fff;
+}
+
+.button-listing {
+    color: #fff;
+    border: 1px solid #6900cc;
+    background-color: transparent;
+    transition-duration: 0.3s;
+}
+
+.button-listing:hover {
+    background-color: #6900cc;
+}

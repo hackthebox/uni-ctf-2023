@@ -1,0 +1,8 @@
+cryptography==41.0.4
+Faker==19.6.2
+Flask==3.0.0
+PyJWT==2.8.0
+python-dotenv==1.0.0
+bcrypt==4.0.1 
+selenium==4.13.0
+SQLAlchemy==2.0.21

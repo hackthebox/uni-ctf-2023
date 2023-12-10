@@ -1,0 +1,1 @@
+FLAG = b'HTB{f4ct0r1ng_w1th_just_4_f3w_b1ts_0f_th3_CRT_3xp0n3nts!https://eprint.iacr.org/2022/271.pdf}'

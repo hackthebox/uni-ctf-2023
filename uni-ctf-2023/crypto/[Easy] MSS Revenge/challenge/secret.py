@@ -1,0 +1,1 @@
+FLAG = b'HTB{R3venge_0f_7he_sm4ll_thr3sh0ld_!}'

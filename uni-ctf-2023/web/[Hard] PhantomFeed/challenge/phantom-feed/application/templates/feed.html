@@ -1,0 +1,35 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+
+<div class="container pt-5 mt-5 mb-4">
+    <form action="/phantomfeed/feed" method="post">
+        <div class="post-container mb-3">
+            <div class="row">
+                <textarea class="post-text" name="content" rows="4" placeholder="content"></textarea>
+            </div>
+            <div class="row">
+                <div class="col-6 no-pad-left">
+                    <input type="text" class="market-link-input" name="market_link" placeholder="marketplace link (optional)">
+                </div>
+                <div class="col-6 no-pad-right">
+                    <button class="login-container-button">create post</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    {% for post in posts %}
+    <div class="post-container mt-3">
+        <img class="avatar" src="https://avatar.oxro.io/avatar.svg?name={{post["username"]}}" height="25" width="25">&nbsp;{{post["username"]}}
+        <hr>
+        <p>{{post["content"]}}</p>
+        {% if post["market_link"] %}
+        <a target="_blank" class="market-link" href="{{post["market_link"]}}">{{post["market_link"]}}</a>
+        <br>
+        <br>
+        {% endif %}
+        <span><i>{{post["created_at"]}}</i></span>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

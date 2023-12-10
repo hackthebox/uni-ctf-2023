@@ -1,0 +1,337 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Nexus_Void.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Nexus_Void.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\css\\normalize.min.css",
+      "PackagePath": "staticwebassets\\css\\normalize.min.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\images\\back1.png",
+      "PackagePath": "staticwebassets\\images\\back1.png"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\images\\back2.png",
+      "PackagePath": "staticwebassets\\images\\back2.png"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\images\\back3.png",
+      "PackagePath": "staticwebassets\\images\\back3.png"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\images\\back4.png",
+      "PackagePath": "staticwebassets\\images\\back4.png"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\images\\back5.png",
+      "PackagePath": "staticwebassets\\images\\back5.png"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\images\\back6.png",
+      "PackagePath": "staticwebassets\\images\\back6.png"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\images\\banner.png",
+      "PackagePath": "staticwebassets\\images\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\images\\blade.png",
+      "PackagePath": "staticwebassets\\images\\blade.png"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\images\\breach.png",
+      "PackagePath": "staticwebassets\\images\\breach.png"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\images\\grenade.png",
+      "PackagePath": "staticwebassets\\images\\grenade.png"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\images\\hand.png",
+      "PackagePath": "staticwebassets\\images\\hand.png"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\images\\something.png",
+      "PackagePath": "staticwebassets\\images\\something.png"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\images\\weapon.png",
+      "PackagePath": "staticwebassets\\images\\weapon.png"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\js\\home.js",
+      "PackagePath": "staticwebassets\\js\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\js\\tailwind.js",
+      "PackagePath": "staticwebassets\\js\\tailwind.js"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\xclow\\OneDrive\\Desktop\\tmp\\tmp\\tmp\\deserial\\Nexus_Void\\Nexus_Void\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Nexus_Void.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Nexus_Void.props",
+      "PackagePath": "build\\Nexus_Void.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Nexus_Void.props",
+      "PackagePath": "buildMultiTargeting\\Nexus_Void.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Nexus_Void.props",
+      "PackagePath": "buildTransitive\\Nexus_Void.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

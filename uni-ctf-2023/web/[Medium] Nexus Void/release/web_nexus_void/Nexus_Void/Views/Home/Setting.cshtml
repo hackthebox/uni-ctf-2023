@@ -1,0 +1,150 @@
+﻿@model UserModel
+
+@{
+    var username = ViewData["username"];
+    ViewData["Title"] = "Dashboard";
+    string message = (String)ViewData["Message"];
+
+}
+
+
+<link rel="stylesheet" href="~/css/normalize.min.css">
+<link rel="stylesheet" href="~/css/home.css">
+
+
+<!-- partial:index.partial.html -->
+<div id="root">
+    <div class="hidden lg:flex h-screen flex-col justify-between w-48 fixed left-0 top-0 bottom-0 pt-24">
+        <ul class="space-y-8">
+            <li class="relative">
+                <a href="#" class="pl-4 flex items-center capitalize   text-zinc-500">
+                    <span class="bg-black w-8 h-8 grid place-items-center mr-2 rounded-md bg-black">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+                        </svg>
+                    </span>market
+                </a>
+            </li>
+            <li class="relative">
+                <a asp-action="Index" asp-controller="Home" class="pl-4 flex items-center capitalize   text-zinc-500">
+                    <span class="bg-black w-8 h-8 grid place-items-center mr-2 rounded-md bg-fuchsia-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path>
+                        </svg>
+                    </span>dashboard
+                </a>
+            </li>
+            <li class="relative">
+                <a asp-action="Wishlist" asp-controller="Home" class="pl-4 flex items-center capitalize   text-zinc-500">
+                    <span class="bg-black w-8 h-8 grid place-items-center mr-2 rounded-md bg-black">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+                        </svg>
+                    </span>wishlist
+                </a>
+            </li>
+            <li class="relative">
+                <a href="#" class="pl-4 flex items-center capitalize   text-zinc-500">
+                    <span class="bg-black w-8 h-8 grid place-items-center mr-2 rounded-md bg-black">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M12 7a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0V8.414l-4.293 4.293a1 1 0 01-1.414 0L8 10.414l-4.293 4.293a1 1 0 01-1.414-1.414l5-5a1 1 0 011.414 0L11 10.586 14.586 7H12z" clip-rule="evenodd"></path>
+                        </svg>
+                    </span>trending
+                </a>
+            </li>
+            <li class="relative">
+                <a href="#" class="pl-4 flex items-center capitalize   text-zinc-500">
+                    <span class="bg-black w-8 h-8 grid place-items-center mr-2 rounded-md bg-black">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"></path>
+                        </svg>
+                    </span>collection
+                </a>
+            </li>
+            <li class="relative">
+                <a href="#" class="pl-4 flex items-center capitalize   text-zinc-500">
+                    <span class="bg-black w-8 h-8 grid place-items-center mr-2 rounded-md bg-black">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z"></path>
+                            <path fill-rule="evenodd" d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z" clip-rule="evenodd"></path>
+                        </svg>
+                    </span>wallet
+                </a>
+            </li>
+            <li class="relative">
+                <div class="absolute -left-1 top-0 bg-fuchsia-600 w-2 h-8 rounded-full"></div>
+                <a asp-action="Setting" asp-controller="Home" class="pl-4 flex items-center capitalize   text-white">
+                    <span class="bg-black w-8 h-8 grid place-items-center mr-2 rounded-md bg-black">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path>
+                        </svg>
+                    </span>setting
+                </a>
+            </li>
+        </ul>
+        <div class="pb-5  px-4">
+            <hr class="mb-5 text-zinc-700">
+            <a asp-action="Logout" asp-controller="Home" class="py-2 flex items-center  text-zinc-500">
+                <span class="bg-black w-8 h-8 grid place-items-center mr-2 rounded-md">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3 3a1 1 0 00-1 1v12a1 1 0 102 0V4a1 1 0 00-1-1zm10.293 9.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L14.586 9H7a1 1 0 100 2h7.586l-1.293 1.293z" clip-rule="evenodd"></path>
+                    </svg>
+                </span>Logout
+            </a>
+        </div>
+    </div>
+
+    <div class="flex flex-wrap p-3 items-center sticky top-0 h-fit  md:h-16 z-30">
+        <div class="flex items-center grow md:grow-0 w-fit md:w-48">
+            <div class="ml-2 font-bold text-xl text-white">Nexus Void</div>
+        </div>
+
+        <div class="flex  mt-4 md:mt-0 order-3 md:order-2 w-full grow md:w-fit ">
+            <button class="w-10 h-10 rounded-md bg-zinc-700 grid place-items-center mr-2 block md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+
+        </div>
+    </div>
+    <div class="flex flex-col md:flex-row">
+        <div class="w-48 hidden lg:block shrink-0"></div>
+        <div class=" grow ">
+            <div style="display: flex; justify-content:center;">
+            <div class="" style="border: 2px solid white; width: 70%;padding: 2rem;">
+                <h1 class="text-2xl font-bold px-3 mt-3 text-white">Profile Settings</h1>
+
+                <form class="pt-3 px-3 mt-2" method="POST">
+                    <div class="form-group">
+                        <label class="text-xl text-white mb-1" for="username">Username</label>
+
+                        <div class="input-group">
+                            <input style="background: #000; color: #fff;" asp-for="username" type="text" class="form-control form-control-lg rounded" id="username"
+                                 value="@username"  placeholder="Username">
+                        </div>
+                    </div>
+                    
+
+                    <div class="mt-3" style="display: flex;justify-content: center; margin-top:unset;">
+                        <button class="btn btn-block btn-danger btn-lg font-weight-medium auth-form-btn"
+                                id="login-btn">
+                            Update
+                        </button>
+                    </div>
+
+                    @if (!string.IsNullOrEmpty(message))
+                    {
+                        <div style="color: white;display: flex; justify-content: center;margin-top: 20px;">
+                            @message
+                        </div>
+                    }
+                </form>
+            </div>
+            </div>
+
+    </div>
+</div>
+<script src="~/js/tailwind.js"></script>
+<script type="module" src="./script.js"></script>
+<!-- partial -->

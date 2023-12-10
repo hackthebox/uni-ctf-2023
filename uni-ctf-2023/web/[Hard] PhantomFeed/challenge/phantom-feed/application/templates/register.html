@@ -1,0 +1,18 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+
+<div class="center">
+    <div class="login-container">
+        <img src="/phantomfeed/static/images/icon.png" width="100" height="100">
+        <h3 class="mt-3">[user registration]</h3>
+        <hr>
+        <form action="/phantomfeed/register" method="post">
+            <input class="login-container-input w-100" type="text" placeholder="username" name="username">
+            <input class="login-container-input w-100 mt-2" type="password" placeholder="password" name="password">
+            <input class="login-container-input w-100 mt-2" type="email" placeholder="email" name="email">
+            <button class="login-container-button mt-2" type="submit">register</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

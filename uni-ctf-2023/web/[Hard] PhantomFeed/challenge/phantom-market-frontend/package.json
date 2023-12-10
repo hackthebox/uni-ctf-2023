@@ -1,0 +1,25 @@
+{
+  "name": "phantom-market",
+  "author": "lean",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/auth-next": "5.0.0-1667386184.dfbbb54",
+    "@nuxtjs/axios": "^5.13.6",
+    "bootstrap": "^5.3.2",
+    "bootstrap-vue": "^2.23.1",
+    "core-js": "3.25.3",
+    "nuxt": "2.15.7",
+    "popper.js": "^1.16.1",
+    "vue": "^2.7.10",
+    "vue-router": "3.5.2",
+    "vue-server-renderer": "2.7.10",
+    "vue-template-compiler": "2.7.10"
+  }
+}
